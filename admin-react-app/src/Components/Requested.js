@@ -71,9 +71,9 @@ class Requested extends Component {
                 {schoolsItems.map((row) => (
                   <TableRow key={row.id}>
                     <TableCell component="th" scope="row">{row.name}</TableCell>
-                    <TableCell className='pending'>{row.status}</TableCell>
-                    <TableCell className='pointer'> <CheckIcon onClick={() => this.acceptedRow(row)} /> </TableCell>
-                    <TableCell className='pointer'> <CloseIcon onClick={() => this.rejectedRow(row)} /> </TableCell>
+                    <TableCell style={{color:"goldenrod"}}>{row.status}</TableCell>
+                    <TableCell className='pointer'> <CheckIcon style={{ color: "green" }} onClick={() => this.acceptedRow(row)} /> </TableCell>
+                    <TableCell className='pointer'> <CloseIcon style={{ color: "red" }} onClick={() => this.rejectedRow(row)} /> </TableCell>
                     <TableCell className='pointer'> <DescriptionIcon onClick={() => this.showModal(row.documents)} /> </TableCell>
 
                   </TableRow>

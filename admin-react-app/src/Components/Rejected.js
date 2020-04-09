@@ -58,7 +58,7 @@ class Rejected extends Component {
                     <TableCell component="th" scope="row">
                       {row.name}
                     </TableCell>
-                    <TableCell className='rejected'>{row.status}</TableCell>
+                    <TableCell style={{color:"red"}}>{row.status}</TableCell>
                     <TableCell> <DescriptionIcon onClick={() => this.showModal(row.documents)} /> </TableCell>
 
                   </TableRow>

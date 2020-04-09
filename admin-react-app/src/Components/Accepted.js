@@ -58,7 +58,7 @@ class Accepted extends Component {
                 {schoolsItems.map((row) => (
                   <TableRow key={row.id}>
                     <TableCell component="th" scope="row">{row.name}</TableCell>
-                    <TableCell className='accepted'>{row.status}</TableCell>
+                    <TableCell style={{color:"green"}}>{row.status}</TableCell>
                     <TableCell> <DescriptionIcon onClick={() => this.showModal(row.documents)} /> </TableCell>
 
                   </TableRow>

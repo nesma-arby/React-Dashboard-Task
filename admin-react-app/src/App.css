@@ -132,17 +132,6 @@ nav span:first-child {
     text-align: center;
 }
 
-.pending {
-    color: goldenrod !important;
-}
-
-.accepted {
-    color: green !important;
-}
-
-.rejected {
-    color: red !important;
-}
 
 .pointer{
     cursor: pointer;
