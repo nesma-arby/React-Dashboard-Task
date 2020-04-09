@@ -1,0 +1,5 @@
+export const ACCEPT_SCHOOL = 'ACCEPT_SCHOOL';
+export const REJECT_SCHOOL = 'REJECT_SCHOOL' ;
+export const RECIEVE_SCHOOLS_DATA = 'RECIEVE_SCHOOLS_DATA' ;
+
+

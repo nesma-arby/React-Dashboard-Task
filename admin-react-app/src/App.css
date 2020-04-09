@@ -1,0 +1,149 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+
+header {
+    background: #1976D2;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+header p {
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.navLinks {
+    padding: 20px;
+}
+
+.navLinks a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.navLinks a:hover {
+    color: goldenrod;
+}
+
+.active {
+    color: goldenrod !important;
+}
+
+.navLinks a svg {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+nav span:first-child {
+    flex: 1;
+}
+
+.sidebar {
+    box-shadow: 0 6px 13px -4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.MuiTableContainer-root {
+    width: 90% !important;
+    margin: auto;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.modal-main {
+    position: fixed;
+    background: #fff;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 20px;
+    color: steelblue;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.close {
+    float: right;
+}
+
+.modalItems a {
+    display: block !important;
+    padding-bottom: 10px !important;
+    text-decoration: none !important;
+}
+
+.no-data {
+    text-align: center;
+}
+
+.pending {
+    color: goldenrod !important;
+}
+
+.accepted {
+    color: green !important;
+}
+
+.rejected {
+    color: red !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
